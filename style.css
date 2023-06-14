@@ -171,7 +171,7 @@ input
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 450px) {
     .head {
       font-size: 2rem;
       margin: 5vh 0 0 5vw;
