@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">  
+   
+  <title>temp converter</title>
+</head>
+<body>
+    <div class="head">
+        Temperature converter
+    </div>
+        <div class="main">
+            <div class="From">
+               <select name="temp" id="from" class="temp">
+                    <option value="" class="default">Choose </option>
+                    <option value="celcius">Celcius</option>
+                    <option value="farenheit">Farenheit</option>
+                    <option value="kelvin">Kelvin</option>
+               </select>
+                <input type="" class="userTemp" id="userTemp" placeholder="ENTER TEMP" >
+            </div>
+            <div class="To">
+                <select name="temp" id="to" class="temp" >
+                    <option value="" class="default">Choose</option>
+                    <option value="celcius">Celcius</option>
+                    <option value="farenheit">Farenheit</option>
+                    <option value="kelvin">Kelvin</option>
+               </select>
+                <!-- <input type="" class="ct" id="ct" placeholder=""> -->
+                <div class="ans" id="ans" >0</div>
+            </div>
+
+
+            <button class="btn">CONVERT</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 Paras Kumar. All rights reserved.</p>
+        </footer>
+
+        <script src="index.js"></script>
+</body>
+</html>
