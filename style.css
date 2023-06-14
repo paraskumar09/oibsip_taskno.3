@@ -41,7 +41,7 @@ select
     font-size:2rem ;
     padding-left:0.7rem ;
     padding: 0.2rem;
-    color: #ffff ;
+    color: #d4b1b1 ;
     background-image: linear-gradient(315deg, #000000 0%, #494848 74%);
     margin:2rem;
     border-radius: 5px;
@@ -174,25 +174,37 @@ input
   @media (max-width: 450px) {
     .head {
       font-size: 2rem;
-      margin: 5vh 0 0 5vw;
+      margin: 12vh 0 0 5vw;
     }
   
     .main {
       width: 90vw;
-      margin: 5vh auto;
-      padding: 2rem;
+      margin: 5vh auto 0 ;
+      padding: 0.4rem;
     }
   
     
 
     input,select,.ans
     {
-        margin-left:4rem;
+        font-size: 1.5rem;
+        margin-left:0.4rem;
+        width:8rem;
+    }
+
+    input{
+      font-size: 1.4rem;
+      padding-left: 0.7rem;
     }
 
 
     .btn{
         margin-left: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        margin-top: 6rem;   
     }
 
 
